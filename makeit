@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -Wall -O3 -fomit-frame-pointer  erori.c intrare.c scaner.c parser.c main.c -o final

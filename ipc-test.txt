@@ -1,0 +1,65 @@
+//
+// program de test pentru atestat
+//
+
+intreg i , j , divizori  , numar2  , N ;
+
+// este implementat algoritmul pentru aflarea numerelor prime 
+// mai mici sau egale cu N citit de la tastatura
+
+scrie "\n\tAcest program afiseaza primele N numere prime, dati N:";
+citeste N ;
+
+pentru (i=1; i< N ; i= i+1)
+       divizori = 0 ;
+
+       pentru (j = 1 ; j < i ; j = j+1 )
+	      daca ( i % j == 0 )
+		   divizori = divizori + 1 ;
+	      sfdaca
+       sfpentru
+
+       daca ( divizori == 0 ) 
+	   // scrie "numarul ",i," are ","1 divizori";
+	  scrie "\nnumarl 1 este prim";
+       altfel
+	    // scrie "\nnumarul ",i," are ", divizori," divizori";
+	    daca ( divizori == 2 )
+		 scrie "\nnumarul ",i," este prim";
+	    sfdaca
+       sfdaca
+
+sfpentru
+
+intreg numar1 = 0 ;
+
+ // cicleaza pana cand primeste un numar negativ;
+repeta 
+    scrie "\ndati un numar negativ :";
+    citeste numar1;
+pana ( numar1 < 0 )
+
+// acesta cicleaza pana cand numarul citit anterior 
+// ajunge la o noua valoare citita tot de la tastatura
+scrie "\nintroduceti un numar";
+citeste numar2;
+
+ctimp (numar1 != numar2 )
+
+      scrie "\n",numar1;      
+      daca ( numar1 < numar2 )
+	   numar1 = numar1++;
+      altfel
+	  numar1 = numar1--;
+      sfdaca
+sfctimp 
+
+.	
+
+
+ // werewrwerwerwerwerwerwer wer we rwer we 
+
+
+
+
+
